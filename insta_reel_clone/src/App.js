@@ -5,7 +5,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      It works good!
+      <h1>Hye Riya, It works good!</h1>
+      
+      <div className='app__top'> 
+        {/* image at top - logo */}
+        {/* Reels text */}
+        <img
+        className="app__logo"
+        src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-13.png"
+        alt=""
+        />
+      </div>
+
+      <div className="app__videos">
+        {/* Container of app__videos (scrollable contains)*/}</div>
     </div>
   );
 }
